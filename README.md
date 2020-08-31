@@ -132,3 +132,11 @@ case.
 : Compiled successfully.
 ```
 
+## access project page
+
+```
+http://<ip address>:4200/
+```
+
+![alt text](https://hirofumi-github-images.s3.amazonaws.com/angular-test-top.JPG)
+
