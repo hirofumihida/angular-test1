@@ -109,4 +109,26 @@ chrome-profiler-events*.json
 speed-measure-plugin*.json
 ```
 
+## start project
+
+- "--host 0.0.0.0" option allows access outside localhost
+
+```
+# cd angular-app
+# ng serve --host 0.0.0.0
+```
+```
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+
+(snip)
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+```
 
