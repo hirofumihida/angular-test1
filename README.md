@@ -88,4 +88,25 @@ CREATE angular-app/e2e/src/app.po.ts (301 bytes)
     Directory is already under version control. Skipping initialization of git.
 ```
 
+- gitignore file is automatically configured.
+
+```
+# head -15 angular-app/.gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+```
+
 
